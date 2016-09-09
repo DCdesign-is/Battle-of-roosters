@@ -1,0 +1,112 @@
+    #jugadores{
+        width: 600px;
+        height: 400px;
+        border: 1px solid #000;
+    }
+
+    .player{
+        width: 50px;
+        height: 50px;   
+        display: inline-block;
+        margin-right: 5px;
+        position: relative;
+    }
+    .jugador-uno{
+        background: #2980b9;
+        left: 40%;
+        top: 0%;
+    }
+    .jugador-dos{
+        background: #ff5733;
+        left: 0%;
+        top: 0%;
+
+    }
+    .active{
+        -webkit-animation-name: example; /* Chrome, Safari, Opera */
+        -webkit-animation-duration: 6s; /* Chrome, Safari, Opera */
+        animation-name: example;
+        animation-duration: 6s;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:40%; top:0px;}
+        20%  {background-color:yellow; left:0px; top:0px;}
+        30%  {background-color:blue; left:200px; top:200px;}
+        40%  {background-color:green; left:0px; top:200px;}
+        50% {background-color:red; left:40%; top:0px;}
+        60%   {background-color:red; left:40%; top:0px;}
+        70%  {background-color:yellow; left:0px; top:0px;}
+        80%  {background-color:blue; left:200px; top:200px;}
+        90%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:40%; top:0px;}
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:40%; top:0px;}
+        20%  {background-color:yellow; left:0px; top:0px;}
+        30%  {background-color:blue; left:200px; top:200px;}
+        40%  {background-color:green; left:0px; top:200px;}
+        50% {background-color:red; left:40%; top:0px;}
+        60%   {background-color:red; left:40%; top:0px;}
+        70%  {background-color:yellow; left:0px; top:0px;}
+        80%  {background-color:blue; left:200px; top:200px;}
+        90%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:40%; top:0px;}
+    }
+
+    .activeDos{
+        -webkit-animation-name: exampleDos; /* Chrome, Safari, Opera */
+        -webkit-animation-duration: 6s; /* Chrome, Safari, Opera */
+        animation-name: exampleDos;
+        animation-duration: 6s;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes exampleDos {
+        0%   {background-color:red; left:40%; top:0px;}
+        20%  {background-color:yellow; left:60%; top:0px;}
+        30%  {background-color:blue; left:200px; top:200px;}
+        40%  {background-color:green; left:60%; top:200px;}
+        50% {background-color:red; left:0px; top:0px;}
+        60%   {background-color:red; left:40%; top:0px;}
+        70%  {background-color:yellow; left:60%; top:0px;}
+        80%  {background-color:blue; left:200px; top:200px;}
+        90%  {background-color:green; left:60%; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+
+    /* Standard syntax */
+    @keyframes exampleDos {
+        0%   {background-color:red; left:40%; top:0px;}
+        20%  {background-color:yellow; left:60%; top:0px;}
+        30%  {background-color:blue; left:200px; top:200px;}
+        40%  {background-color:green; left:60%; top:200px;}
+        50% {background-color:red; left:0px; top:0px;}
+        60%   {background-color:red; left:40%; top:0px;}
+        70%  {background-color:yellow; left:60%; top:0px;}
+        80%  {background-color:blue; left:200px; top:200px;}
+        90%  {background-color:green; left:60%; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
